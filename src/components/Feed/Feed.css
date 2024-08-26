@@ -19,11 +19,12 @@
 }
 
 .card h3 {
-  font-size: 14px;
+  font-size: 15px;
   font-weight: 600;
   color: #555;
   margin: 6px 0;
 }
-.card h3 {
+
+.card p {
   font-size: 14px;
 }

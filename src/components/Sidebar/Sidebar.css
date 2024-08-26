@@ -25,11 +25,6 @@
   cursor: pointer;
 }
 
-.side-link:hover {
-  scale: 1.1;
-  transition: 0.2s all ease;
-}
-
 .sidebar hr {
   border: none;
   height: 1px;
@@ -66,4 +61,9 @@
 .small-sidebar hr {
   width: 50%;
   margin-bottom: 25px;
+}
+
+.side-link.active img {
+  padding-bottom: 2px;
+  border-bottom: 3px solid red;
 }

@@ -2,8 +2,9 @@
   flex-basis: 69%;
 }
 
-.play-video video {
+.play-video iframe {
   width: 100%;
+  height: 37vw;
 }
 
 .play-video h3 {
@@ -20,6 +21,11 @@
   margin-top: 10px;
   font-size: 14px;
   color: #5a5a5a;
+}
+
+.play-video-info p {
+  display: flex;
+  align-items: center;
 }
 
 .play-video-info img {
@@ -127,4 +133,23 @@
 .comment-action span {
   margin-right: 20px;
   color: #5a5a5a;
+}
+
+@media (max-width: 900px) {
+  .play-video {
+    flex-basis: 100%;
+  }
+  .play-video iframe {
+    width: 100%;
+    height: 50vw;
+  }
+  .vid-description {
+    padding-left: 0;
+  }
+
+  .play-video .play-video-info span {
+    margin-left: 0;
+    margin-right: 15px;
+    margin-top: 15px;
+  }
 }

@@ -36,6 +36,7 @@ const Feed = ({ category }) => {
           <Link
             to={`video/${item.snippet.categoryId}/${item.id}`}
             className="card"
+            key={index}
           >
             <img src={item.snippet.thumbnails.medium.url} alt="" />
             <h2>{item.snippet.title}</h2>
